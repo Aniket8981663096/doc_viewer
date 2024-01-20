@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: 1px dashed #222;
+    border-radius: 12px;
+}
+
+.app {
+    width: 100vw;
+}
+
+.file-view {
+    width: 100vw;
+}
+
+.nav {
+   list-style-type: none;
+   display: flex;
+   position: fixed;
+   top: 0;
+   background: white;
+   padding: 20px;
+   box-shadow: 1px 2px 12px 3px lightgrey;
+   max-width: max-content;
+   border-radius: 12px;
+   left: 50%;   
+   transform: translate(-50%, 0);
+}
+
+.nav li {
+    margin: 5px;
+    font-size: 20px;
+    color: #383838;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.nav li:hover {
+    background: lightgray;
+    cursor: pointer;
+
+}
+.dark {
+    border: transparent;
+    border-radius: 50%;
+    font-size: 2.1rem;
+    padding: 2%;
+    background-color: #5f6269;
+    color: white;
+    cursor: pointer;
+}
