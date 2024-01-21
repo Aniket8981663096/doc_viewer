@@ -1,6 +1,4 @@
 import { useState } from 'react'
-
-import FileViewer from './components/FileViewer'
 import DocViewer from './components/DocViewer'
 
 function App() {
